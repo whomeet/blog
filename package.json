@@ -1,0 +1,36 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Blog Platform",
+  "main": "index.js",
+  "keywords": [
+    "blog",
+    "vuepress"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "restart": "git add . && git commit -m 'write article' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whomeet/blog.git"
+  },
+  "author": "huchaoqun",
+  "license": "MIT",
+  "devDependencies": {
+    "less-loader": "^4.1.0",
+    "lodash.throttle": "^4.1.1",
+    "markdown-it-imsize": "^2.0.1",
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "^0.10.0"
+  },
+  "dependencies": {
+    "@dp/util-m-ua": "^2.0.8",
+    "@dp/zepto": "^1.2.8",
+    "axios": "^0.18.0",
+    "vue-resource": "^1.5.1",
+    "vue-server-renderer": "^2.5.16"
+  }
+}
